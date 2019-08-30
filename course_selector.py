@@ -1,8 +1,8 @@
 from selenium import webdriver
 import time
 
-username = ""
-password = ""
+username = "11710913"
+pwd = "133617"
 
 course = dict()
 course['MAE203B'] = '//*[@id="div_201820193000006"]/a'
@@ -16,7 +16,7 @@ bs.get(url)
 account = bs.find_element_by_xpath('//*[@id="username"]')
 account.send_keys(username)
 password = bs.find_element_by_xpath('//*[@id="password"]')
-password.send_keys(password)
+password.send_keys(pwd)
 btn_login = bs.find_element_by_xpath('//*[@id="fm1"]/section[4]/input[4]')
 btn_login.click()
 # 点击选课中心

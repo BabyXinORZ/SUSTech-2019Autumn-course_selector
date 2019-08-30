@@ -35,10 +35,11 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads
    python course_selector.py
    ```
 
-3. 选到想要的课程后,不要大声张扬,在github上点个**关注**就好。
+3. 选到想要的课程后,不要大声张扬,在github上点个**⭐**就好。
    没有选到也不用灰心丧气,因为明天也可能选不到。
 
-### TODO
+
+## TODO
 
 1. 还希望添加xrld模块，读取excel表格，让调整文件参数更轻松
 

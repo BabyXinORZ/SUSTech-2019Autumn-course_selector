@@ -1,13 +1,15 @@
 from selenium import webdriver
 import time
 
-username = "11710913"
-pwd = "133617"
+# 可以修改的参数
+##################################################333
+username = ""
+pwd = ""
 
 course = dict()
 course['MAE203B'] = '//*[@id="div_201820193000006"]/a'
 course['ME103'] =  '//*[@id="div_201820193000075"]/a'
-
+###################################################
 
 bs = webdriver.Chrome()
 # log in

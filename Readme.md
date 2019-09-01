@@ -9,8 +9,13 @@
 | chrome       | 76.0.3809.132 |
 | chromedriver | 76.0.3809.126 |
 
+### 配置selenium
+命令行输入
+```shell
+pip install selenium
+```
+### 配置chrome和chromedriver
 如果你的chrome并非此版本,请在下方网址根据chrome版本下载对应版本的chromedriver
-
 https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 ## 使用
